@@ -1,0 +1,4 @@
+include LICENSE README.md example.py pyproject.toml
+recursive-include tests *.py
+exclude test_server.py crowd_control_pack.json
+global-exclude __pycache__ *.py[cod] .DS_Store
